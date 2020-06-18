@@ -169,7 +169,6 @@ li{
 	width: 70%;
 	height: 200px;
 	margin-left: 13%;
-/*	background-color: lightpink;*/
 	display: flex;
 	flex-direction: column;
 	color: #242424;
@@ -189,7 +188,7 @@ li{
 }
 
 .university_data,
-.university_data{
+.academy_data{
 	font: normal normal normal 18px/1.75em roboto,sans-serif;
 	margin-bottom: 1%;
 }
@@ -212,7 +211,15 @@ li{
 	border-radius: 80px;
 	margin: 0 auto;
 	margin-top: 7%;
-	background: url(../img/languages.jpg) no-repeat;
+	background-size: 100% 150px;
+}
+
+.info img{
+	height: 150px;
+	width: 150px;
+	border-radius: 80px;
+	margin: 0 auto;
+	margin-top: 7%;
 	background-size: 100% 150px;
 }
 
@@ -300,6 +307,21 @@ li{
 .skill_js{
 	height: 260px;
 	width: 33.33%;
+}
+
+.skill_python:hover{
+	transform: rotate(360deg);
+	transition: 0.9s;
+}
+
+.skill_c:hover{
+	transform: rotate(360deg);
+	transition: 0.9s;
+}
+
+.skill_js:hover{
+	transform: rotate(360deg);
+	transition: 0.9s;
 }
 
 .skill_python{
